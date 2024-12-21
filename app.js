@@ -52,7 +52,7 @@ const start = async () => {
     // access api in physical device
 
     // server.listen(process.env.PORT || 3000, "0.0.0.0", () =>
-    server.listen(process.env.PORT || 3000, () =>
+    server.listen(process.env.PORT || 3000,"0.0.0.0", () =>
       console.log(
         `HTTP server is running on port http://localhost:${
           process.env.PORT || 3000
